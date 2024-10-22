@@ -1,0 +1,18 @@
+{
+    "Comment": "Create a new DNS record",
+    "Changes": [
+      {
+        "Action": "CREATE",
+        "ResourceRecordSet": {
+          "Name": "*.ec2.enviroment.platform.vee.codes",
+          "Type": "A",
+          "TTL": 300,
+          "ResourceRecords": [
+            {
+              "Value": "52.7.78.161"
+            }
+          ]
+        }
+      }
+    ]
+}

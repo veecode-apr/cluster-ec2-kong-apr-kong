@@ -1,0 +1,14 @@
+global:
+  domain: ec2.enviroment.platform.vee.codes
+  secure: true
+  provider: aws
+kong: 
+  enabled: true
+  basic_auth: true
+  mode: standard  
+cert-manager:
+  enabled: true
+  email: manager@vee.codes 
+  issuer:
+    type: "production"
+    solver: "DNS01"
